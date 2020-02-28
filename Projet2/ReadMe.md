@@ -1,4 +1,4 @@
-#Auteur: Ibrahima BALDE
+## Auteur: Ibrahima BALDE
 - Pour lancer l'application :
    http://webtp.fil.univ-lille1.fr/~balde/Projet2/index.php
 
