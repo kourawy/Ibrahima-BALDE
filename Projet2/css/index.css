@@ -1,0 +1,86 @@
+
+#stations{
+
+  width: 95% ;
+  height: auto;
+  padding: 10px;
+}
+#form-search{
+
+  width: 25%;
+  height: 300px;
+  float: left;
+}
+
+
+#best{
+
+  width: 95% ;
+  height: auto;
+  padding: 10px;
+}
+
+#info{
+
+  width: 45% ;
+  height: 500px;
+  float: left;
+}
+
+#remarque{
+  
+  width: auto;
+  height: 500px;
+}
+
+div.listeEtoile>ul>li{
+  width: auto ;
+  list-style: none;
+  display: inline-block;
+}
+#rangement-1>span{
+  width: auto ;
+  margin-right: 30px;
+  float: left;
+}
+
+#rangement-2>span{
+  width: auto ;
+  margin-right: 30px;
+  float: left;
+}
+
+#rangement-3>span{
+  width: auto ;
+  margin-right: 50px;
+  float: left;
+}
+
+#rangement-4>span{
+  width: auto ;
+  margin-right: 30px;
+  float: left;
+}
+
+#valider_station{
+  background: rgba(3, 202, 69, 0.945);
+  color: white ;
+  border-bottom: 2px solid rgba(3, 202, 69, 0.945);
+  font-size: 20px;
+  width: 200px;
+  margin-left: 100px;
+
+}
+
+#post{
+
+
+  width: 650px;
+  float: right;
+
+}
+
+form#forms_post{
+  background-color: #1d3863 ;
+  width: 400px;
+}
