@@ -1,0 +1,200 @@
+body {
+    font-family : Helvetica, arial;
+    margin: 0 10mm 0 10mm;
+    border-top: solid 5px white;
+    /*background-color: #fff2e6;*/
+    background-image: url("../couvertures/lille3.jpg");
+    background-size: cover;
+}
+   
+fieldset {
+	width: 90%;
+    border : 2px solid orange ;
+    margin : 10px ;
+    border-radius: 10px 10px 10px 10px;
+}
+
+h1{
+	margin-top: 4px;
+	margin-left: 20px;
+	color: orange;
+	text-decoration: underline;
+}
+
+h1+p, p+p{
+	margin-left: 30px;
+	font-weight: bold;
+	color: white;
+}
+
+h1+p:hover, p+p:hover{
+	border-left: 3px solid orange;
+}
+
+button{ 
+	padding: 3px 30px;
+	border-radius: 5px 5px 5px 5px;
+	margin-left: 5px;
+}
+
+button:hover{
+	transform: scale(1.1);
+	box-shadow: 1px 1px 3px red;
+	color: white;
+}
+
+header{
+	width: 80%;
+	height: 200px;
+	margin: 0 auto;
+	border-bottom: solid 2px white;
+	border-radius: 0 0 5px 5px;
+	background-image: url("../couvertures/lille.jpg");
+	background-size: cover;
+}
+
+div#principal{
+	width: 80%;
+	min-height: 480px;
+	margin: 0 auto;
+	border-top: solid 2px white;
+	border-bottom: solid 2px white;
+}
+
+form{
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 3px;
+	border-radius: 10px 10px 10px 10px;
+	background-color: rgba(0, 0, 0, .5);
+}
+
+legend{
+	font-size: 25px;
+	font-weight: bold;
+	color: orange;
+	margin:0;
+}
+
+section{
+    width: 65%;
+    margin: 0px auto;
+    background-color: red;
+    opacity: .8;
+}
+
+section#errorMessage p{
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+}
+   
+section#errorMessage p span{
+    text-decoration: underline;
+}
+
+label{
+	color: white;
+	font-weight: bold;
+}
+
+input{
+	font-weight: bold;
+	width: 80%;
+}
+
+input:focus{
+	box-shadow: 2px 2px 2px gold;
+}
+
+footer{
+	width: 80%;
+	height: 70px;
+	background-color: rgba(255, 255, 255, .7);
+	margin: 0 auto;
+	border-bottom: 3px solid orange;
+	position: relative;
+}
+
+img{
+	width: 30%;
+	position: absolute;
+	margin-top: 10px;
+}
+
+footer p{
+	font-weight: bold;
+	color: black;
+	position: absolute;
+	bottom: 0;
+	right: 10px;
+}
+
+#source{
+	margin-right: 100px;
+}
+
+abbr{
+	text-decoration: none;
+	color: black;
+}
+
+header{
+	width: 80%;
+	height: 200px;
+	margin: 0 auto;
+	border-bottom: solid 2px white;
+	border-radius: 5px 5px 0 0;
+}
+
+@media (max-width: 320px){
+	header{
+		height: 50px;
+	}
+
+	h1{
+		font-size: 15px;
+	}
+
+	legend{
+		font-size: 10px;
+	}
+
+	input{
+		width: 60px;
+	}
+
+	label, select{
+		font-size: 9px;
+	}
+
+	form{
+		margin-left: 0;
+		width: 100%;
+	}
+
+	fieldset{
+		margin-left: 0px;
+	}
+
+	table{
+		display: none;
+	}
+
+	footer img{
+		display: none;
+	}
+
+	p{
+		font-size: 12px;
+	}
+
+	footer p{
+		font-size: 10px;
+	}
+
+	#map{
+		height: 300px;
+	}
+}
